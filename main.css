@@ -1,0 +1,222 @@
+* {
+    font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+    color: #1D1D1D;
+}
+
+.logo {
+    width: 25px;
+    height: 25px;
+    margin-left: -18px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    color: #1D1D1D;
+}
+
+.menu li {
+    list-style: none;
+    margin: 4.3px 0 0 20px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    background-color: #4B204A;
+    width: 130px;
+    height: 42.5px;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.signIn {
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+.signIn:focus {
+    outline: none;
+}
+
+.signIn:hover {
+    color: #4B204A;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 60px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    z-index: 99;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    margin: -10px;
+    /* width: 100vw; */
+}
+
+.navButton {
+    margin: 8px 57px 0 0;
+}
+
+.showCase {
+    margin-left: -8px;
+    /* margin-top: 40px; */
+    max-width: 100vw;
+    object-fit: cover;
+    overflow-x: hidden;
+}
+
+.subHeading {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: #1D1D1D;
+}
+
+.subHeading p small a {
+    color: #00a2ff;
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.subHeading p small a:hover {
+    border-bottom: 2px solid;
+}
+
+.subHeading h1 {
+    /* word-break: break-all; */
+    width: 600px;
+    font-weight: bolder;
+}
+
+.gridContainer {
+    display: grid;
+    grid-auto-rows: minmax(200px, auto);
+    grid-gap: 50px;
+    margin-top: 50px;
+    padding: 50px;
+    /* font-size: 18px; */
+}
+
+.gridContainer .item1 {
+    grid-column: 1;
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
+.gridContainer .item2 {
+    grid-column: 2;
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
+.gridContainer .item3 {
+    grid-column: 3;
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
+/* .gridContainer {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+
+} */
+
+.imageGrid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+    padding: 50px;
+    /* font-size: 18px; */
+}
+
+.imageGrid .item1 p {
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
+.imageGrid .item3 {
+    align-self: center;
+}
+
+.imageGrid .item4 p {
+    line-height: 1.4em;
+    font-size: 18px;
+}
+
+.gridContainer .item7 {
+    background-color: white;
+    grid-column: 1;
+    line-height: 1.4em;
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 420ms cubic-bezier(.165, .84, .44, 1);
+    padding: 20px;
+}
+
+.gridContainer .item7:hover {
+    transform: translate(0, -15%);
+    /* height: 120%; */
+    /* width: 120%; */
+    /* transform: scaleX(1.1);
+    transform: scaleY(1.3); */
+    object-fit: cover;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.gridContainer .item8 {
+    background-color: white;
+    grid-column: 2;
+    line-height: 1.4em;
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 420ms cubic-bezier(.165, .84, .44, 1);
+    padding: 20px;
+}
+
+.gridContainer .item8:hover {
+    transform: translate(0, -15%);
+    /* height: 120%; */
+    /* width: 120%; */
+    /* transform: scaleX(1.1);
+    transform: scaleY(1.3); */
+    object-fit: cover;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.gridContainer .item9 {
+    background-color: white;
+    grid-column: 3;
+    line-height: 1.4em;
+    font-size: 18px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    transition: all 420ms cubic-bezier(.165, .84, .44, 1);
+    padding: 20px;
+}
+
+.gridContainer .item9:hover {
+    transform: translate(0, -15%);
+    /* height: 120%; */
+    /* width: 120%; */
+    /* transform: scaleX(1.1);
+    transform: scaleY(1.3); */
+    object-fit: cover;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.1);
+
+}
